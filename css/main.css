@@ -98,7 +98,9 @@ width: var(--full-width);
 margin: 0 auto;
 }
 
-
+.prime{ background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+  
+}
 
 .header{
    border-bottom: solid 1px var(--color-primary-10);
@@ -149,5 +151,10 @@ all: unset;
 width: 7.5rem
 }
 
+.hero{
+  display: flex;
+  align-items: center;
+  padding: 5rem 0;
+}
  
   
