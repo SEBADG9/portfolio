@@ -13,27 +13,35 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__nav">    
-        <img src="./images/logo.svg" alt="this is the logo">
-        <nav>
+       
+        <img src="./images/logo.svg" alt="this is the logo"
+        width="145"
+        height="35"/>
+        <nav class="header__nav">
             <ul>
-                <li><a href="#">home</a></li>
+                <li><a href="#" class="active">home</a></li>
                 <li><a href="">community</a></li>
                 <li><a href="">blogs</a></li>
                 <li><a href="">events</a></li>
             </ul>
         </nav>
-    </div>
-        <div>
-            <input type="search">
-        <a href="/login">log in</a>
+ 
+        <div class="header__actions">
+            <form class="header__search">
+                <img src="./images/icon-search.svg" alt="icon search"  width="16"  height="16"/>
+            <input type="search" aria-label="search" aria-label="Search Here..."
+           />
+        </form>
+        <a href="/login" class="btn">log in</a>
          </div>
        
            
 
     </header>
     <main>
-        <section class="hero"></section>
+        <section class="hero">
+            <p>Hello world</p>
+        </section>
         <div class="clients"></div>
         <section class="whats-netboks">
             <article></article>
